@@ -6,7 +6,7 @@ from flask_sqlalchemy import SQLAlchemy
 
 
 database_uri = 'postgresql+psycopg2://{dbuser}:{dbpass}@{dbhost}/{dbname}'.format(
-    dbuser='Psqladmin123',
+    dbuser='Psqladmin123@sqldb-server-yoda1',
     dbpass='Psql@dmin123!@#',
     dbhost='sqldb-server-yoda1.postgres.database.azure.com',
     dbname='postgres'
